@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Public Sans", sans-serif;
+}
+/* common */
+.container {
+    width: 1140px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 14px 52px;
+    border-radius: 40px;
+    border: 1.5px solid #143c3c;
+    background: var(--Primary-color-black-green, #143c3c);
+    cursor: pointer;
+}
+/* body */
+.header__fixed {
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+.header {
+    padding: 36px 0 8px;
+}
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo__branch {
+    margin-left: 8px;
+    color: #000;
+    font-weight: 700;
+}
+.navbar .list {
+    display: flex;
+}
+.nav__link {
+    color: #575d5e;
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.56;
+}
+.nav__link:hover {
+    color: var(--Primary-color-black, #152427);
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-shadow: 1px 0 0 currentColor;
+}
+/* HERO */
+.hero {
+    padding-top: 74px;
+    display: flex;
+}
+.hero__content {
+    width: 35%;
+}
+.hero__heading {
+    width: 368px;
+    color: #152427;
+    font-family: "Public Sans";
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+}
+.hero__desc {
+    padding: 20px 0 42px;
+    width: 341px;
+    color: #575d5e;
+    font-family: "Public Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.hero__row {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.hero-btn {
+    margin-right: 36px;
+}
+.hero__watch {
+    display: block;
+    margin-left: 15px;
+}
+.hero__media {
+    width: 53%;
+    display: flex;
+    margin-left: auto;
+}
+.hero__images {
+    display: flex;
+    column-gap: 20px;
+}
+.hero__img-center {
+    border-radius: 340px;
+    background: #4dbb9a;
+    top: 77px;
+    position: relative;
+}
