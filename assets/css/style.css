@@ -531,3 +531,120 @@ a {
     font-weight: 500;
     line-height: 24px;
 }
+/* blog */
+.blog__top {
+    margin-top: 130px;
+    margin-bottom: 76px;
+}
+.blog-desc {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    color: #152427;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.blog-desc::after {
+    top: 12px;
+    left: 0;
+    display: block;
+    content: "";
+    width: 25px;
+    height: 1px;
+    position: absolute;
+    background-color: #000;
+}
+.blog-heading {
+    position: relative;
+    color: #152427;
+    width: 512px;
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 52px;
+}
+.blog-heading::after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 400px;
+    top: 80px;
+    background-color: #000;
+    width: 66px;
+    height: 2px;
+}
+.blog-box {
+    display: flex;
+    gap: 18px;
+    margin-right: 50px;
+}
+.blog__desc {
+    color:  #7d8188;
+    font-family: Poppins;
+    font-size: 16px;
+    width: 409px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.blog__top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-box__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    background-color: #4dbb9a;
+}
+.blog__bottom {
+}
+.blog__list {
+    display: flex;
+    column-gap: 30px;
+}
+.blog__list-item {
+    width: 33.33%;
+}
+.blog__list-item:hover {
+    border-radius: 0px 0px 20px 20px;
+    background: var(--text-color-white, #fff);
+    box-shadow: 0px 12px 74px 0px rgba(91, 91, 91, 0.25);
+}
+.blog-img {
+    flex-shrink: 0;
+    width: 370px;
+    height: 318px;
+    border-radius: 40px 40px 0px 0px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.blog__list-item .heading {
+    padding: 8px 12px;
+    border-radius: 20px;
+    background: #e2eddf;
+    display: inline-block;
+    margin: 24px 0 18px;
+    color: #152427;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+.blog__list-item .desc {
+    width: 268px;
+    color: var(--text-color-light-gray, #7d8188);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
